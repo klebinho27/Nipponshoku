@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+.logo img{
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.logo{ 
+    background-color:  #f39292;
+    height: 10vh;
+    
+}
+    
+.navegacao{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    font-size: 20px;
+    display: flex;  
+    justify-items: left;
+}
+
+.navegacao ol{
+    list-style-type:  none;
+    display: flex;
+
+}
+
+.navegacao ol li{
+    padding-left: 50px;
+}
+
+.navegacao ol li:hover{
+ color: #b60000;
+ cursor: pointer;
+}
+.navegacao img{
+    margin-left: 150px;
+    height: 30vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+    }
+
+.banner{
+    background-image: url(nipponshoku.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+td{
+    border: 1px #f39292 solid;
+    height: 150px;
+    width: 1300px;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    
+}

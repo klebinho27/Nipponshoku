@@ -1,0 +1,240 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+.logo img{
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+    margin-top: 0px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+.logo{ 
+    background-color:  rgb(243, 146, 146);
+    height: 10vh;
+    
+}
+    
+.navegacao{
+    background-color: black;
+    height: 10vh;
+    color: white;
+    font-size: 20px;
+    display: flex;  
+    justify-items: left;
+}
+
+.navegacao ol{
+    list-style-type:  none;
+    display: flex;
+
+}
+
+.navegacao ol li{
+    padding-left: 50px;
+}
+
+.navegacao ol li:hover{
+ color: #b60000;
+ cursor: pointer;
+}
+.navegacao img{
+    margin-left: 150px;
+    height: 30vh;
+}
+a{
+color: white;
+text-decoration: none;
+}
+.banner{
+    background-image: url(nipponshoku.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fml{
+    background-color: rgb(255, 255, 255);
+    height: 25vh;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.fml h4{
+    font-size: 20px;
+    color: rgb(92, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 95vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reserva{
+    color: black;
+    font-size: 40px; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reserva ol{
+    list-style-type:  none;
+}
+.reserva ol li{
+    font-size: 20px;
+}
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+button:hover{
+color: white;
+cursor: pointer;
+background-color: black;
+
+}
+.unidades img{
+    width: 10vh;
+    height: 10vh;
+}
+
+
+.unidades img{
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+}
+
+.baixo{
+    height: 90vh;
+    background-color: black;
+    opacity: 90%;
+}
+.baixo h1{
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.imagensjapa{
+    display: flex;
+    border-radius: 5vh;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.temaki{
+    background-image: url(temaki.png);
+    background-repeat: no-repeat;
+    border-radius: 5vh;
+    width: 30vh;
+    height: 50vh;
+    border: 1px #f39292 solid;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.temaki h3{
+    margin-top: 200px;
+}
+.Sushi{
+    background-image: url(sushi.png);
+    background-repeat: no-repeat;
+    border-radius: 5vh;
+    width: 30vh;
+    height: 50vh;
+    border: 1px #f39292 solid;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.Sushi h3{
+    margin-top: 200px;
+}
+
+.Yakisoba{
+    background-image: url(yakisoba.png);
+    background-repeat: no-repeat;
+    border-radius: 5vh;
+    width: 30vh;
+    height: 50vh;
+    border: 1px #f39292 solid;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.Yakisoba h3{
+    margin-top: 200px;
+}
+
+.barca{
+    background-image: url(roll.png);
+    background-repeat: no-repeat;
+    border-radius: 5vh;
+    width: 30vh;
+    height: 50vh;
+    border: 1px #f39292 solid;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.barca h3{
+    margin-top: 200px;
+}
+
+.rodizio{
+    background-image: url(lamen.png);
+    background-repeat: no-repeat;
+    border-radius: 5vh;
+    width: 30vh;
+    height: 50vh;
+    border: 1px #f39292 solid;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.rodizio h3{
+    margin-top: 200px;
+}
+
+.formu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.formu input{
+    border: none;
+    outline: 0;
+    border-bottom: black 1px solid;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    
+}
